@@ -7,7 +7,7 @@ performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/ryanbucks-project/ryanbucks/issues>
+  <https://github.com/BaratasFPV/RyanBucks/issues>
 
 To receive security and update notifications, please subscribe to:
 
@@ -92,7 +92,7 @@ descends from an invalid block is marked as such.
 Minimum relay fee lowered
 -------------------------
 
-The minimum relay fee `-minrelayfee` has been lowered to 0.01 lites per kB (0.00001 RXB). This is to prepare for dropping the minimum transaction fee to 0.1 lites per kB (0.0001 RXB) in the next release.
+The minimum relay fee `-minrelayfee` has been lowered to 0.01 bucks per kB (0.00001 RXB). This is to prepare for dropping the minimum transaction fee to 0.1 bucks per kB (0.0001 RXB) in the next release.
 
 Mempool replacement disabled by default
 ---------------------------------------

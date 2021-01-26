@@ -7,7 +7,7 @@ as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/ryanbucks-project/ryanbucks/issues>
+  <https://github.com/BaratasFPV/RyanBucks/issues>
 
 To receive security and update notifications, please subscribe to:
 

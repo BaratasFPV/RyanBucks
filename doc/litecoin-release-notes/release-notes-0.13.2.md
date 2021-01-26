@@ -7,7 +7,7 @@ It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/ryanbucks-project/ryanbucks/issues>
+  <https://github.com/BaratasFPV/RyanBucks/issues>
 
 Compatibility
 ==============
@@ -819,8 +819,8 @@ covered by the txid. This provides several immediate benefits:
   (such as hardware wallets), reduces the amount of data the signature
   generator needs to download, and allows the signature generator to operate
   more quickly.  This is made possible by having the generator sign the amount
-  of ryanbuckss they think they are spending, and by having full nodes refuse to
-  accept those signatures unless the amount of ryanbuckss being spent is exactly
+  of ryanbucks they think they are spending, and by having full nodes refuse to
+  accept those signatures unless the amount of ryanbucks being spent is exactly
   the same as was signed.  For non-segwit transactions, wallets instead had to
   download the complete previous transactions being spent for every payment
   they made, which could be a slow operation on hardware wallets and in other

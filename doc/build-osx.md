@@ -43,7 +43,7 @@ Build Ryanbucks Core
 
 1. Clone the Ryanbucks Core source code:
 
-        git clone https://github.com/ryanbucks-project/ryanbucks
+        git clone https://github.com/BaratasFPV/RyanBucks
         cd ryanbucks
 
 2.  Build Ryanbucks Core:

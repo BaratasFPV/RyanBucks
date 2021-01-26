@@ -7,7 +7,7 @@ fixes and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/ryanbucks-project/ryanbucks/issues>
+  <https://github.com/BaratasFPV/RyanBucks/issues>
 
 To receive security and update notifications, please subscribe to:
 
@@ -86,7 +86,7 @@ Configuration option changes
   messages that ZMQ will queue in memory (the "high water mark") before
   dropping additional messages.  The default value is 1,000, the same as
   was used for previous releases.  See the [ZMQ
-  documentation](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/zmq.md#usage)
+  documentation](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/zmq.md#usage)
   for details.
 
 - The `rpcallowip` option can no longer be used to automatically listen
@@ -119,29 +119,29 @@ Wallet changes
 When creating a transaction with a fee above `-maxtxfee` (default 0.1 RXB),
 the RPC commands `walletcreatefundedpsbt` and  `fundrawtransaction` will now fail
 instead of rounding down the fee. Beware that the `feeRate` argument is specified
-in RXB per kilobyte, not litoshi per byte.
+in RXB per kilobyte, not cent per byte.
 
 Documentation
 -------------
 
-- A new short [document](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/JSON-RPC-interface.md)
+- A new short [document](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/JSON-RPC-interface.md)
   about the JSON-RPC interface describes cases where the results of an
   RPC might contain inconsistencies between data sourced from different
   subsystems, such as wallet state and mempool state.  A note is added
-  to the [REST interface documentation](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/REST-interface.md)
+  to the [REST interface documentation](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/REST-interface.md)
   indicating that the same rules apply.
 
 - Further information is added to the [JSON-RPC
-  documentation](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/JSON-RPC-interface.md)
+  documentation](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/JSON-RPC-interface.md)
   about how to secure this interface.
 
-- A new [document](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/ryanbucks-conf.md)
+- A new [document](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/ryanbucks-conf.md)
   about the `ryanbucks.conf` file describes how to use it to configure
   Ryanbucks Core.
 
 - A new document introduces Ryanbucks Core's BIP174 [Partially-Signed
   Ryanbucks Transactions
-  (PSBT)](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/psbt.md)
+  (PSBT)](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/psbt.md)
   interface, which is used to allow multiple programs to collaboratively
   work to create, sign, and broadcast new transactions.  This is useful
   for offline (cold storage) wallets, multisig wallets, coinjoin
@@ -149,7 +149,7 @@ Documentation
   to interact to generate a complete transaction.
 
 - The [output script
-  descriptor](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/descriptors.md)
+  descriptor](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/descriptors.md)
   documentation has been updated with information about new features in
   this still-developing language for describing the output scripts that
   a wallet or other program wants to receive notifications for, such as
@@ -170,7 +170,7 @@ Build system changes
 
 - The minimum required version of Qt (when building the GUI) has been
   increased from 5.2 to 5.5.1 (the [depends
-  system](https://github.com/ryanbucks-project/ryanbucks/blob/master/depends/README.md)
+  system](https://github.com/BaratasFPV/RyanBucks/blob/master/depends/README.md)
   provides 5.9.7)
 
 New RPCs
@@ -188,7 +188,7 @@ New RPCs
   they've been running.
 
 - `deriveaddresses` returns one or more addresses corresponding to an
-  [output descriptor](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/descriptors.md).
+  [output descriptor](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/descriptors.md).
 
 - `getdescriptorinfo` accepts a descriptor and returns information about
   it, including its computed checksum.
@@ -297,7 +297,7 @@ in the Low-level Changes section below.
   origin information imported through `importmulti` will have their key
   origin information stored in the wallet for use with creating PSBTs.
   More information about descriptors can be found
-  [here](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/descriptors.md).
+  [here](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/descriptors.md).
 
 - `listunspent` has been modified so that it also returns
   `witnessScript`, the witness script in the case of a P2WSH or
@@ -320,7 +320,7 @@ Deprecated or removed RPCs
 - The 'account' API is removed after being deprecated in v0.17.  The
   'label' API was introduced in v0.17 as a replacement for accounts.
   See the [release notes from
-  v0.17](https://github.com/ryanbucks-project/ryanbucks/blob/master/doc/release-notes/release-notes-0.17.0.md#label-and-account-apis-for-wallet)
+  v0.17](https://github.com/BaratasFPV/RyanBucks/blob/master/doc/release-notes/release-notes-0.17.0.md#label-and-account-apis-for-wallet)
   for a full description of the changes from the 'account' API to the
   'label' API.
 

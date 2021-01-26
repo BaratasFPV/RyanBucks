@@ -188,8 +188,8 @@
         <translation>Billetera encriptada</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ryanbuckss from being stolen by malware infecting your computer.</source>
-        <translation>Tu billetera quedó encriptada. Recuerda que encriptar tu billetera no protege totalmente tus ryanbuckss de ser robados por malware que infecte tu computadora.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ryanbucks from being stolen by malware infecting your computer.</source>
+        <translation>Tu billetera quedó encriptada. Recuerda que encriptar tu billetera no protege totalmente tus ryanbucks de ser robados por malware que infecte tu computadora.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>

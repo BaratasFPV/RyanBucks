@@ -188,7 +188,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ryanbuckss from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ryanbucks from being stolen by malware infecting your computer.</source>
         <translation>Wallet anda sekarang telah terenkripsi. Ingat bahwa enkripsi wallet anda tersebut tidak dapat sepenuhnya melindungi dari pencurian atau malware yang menyerang komputer anda. </translation>
     </message>
     <message>
@@ -920,7 +920,7 @@
         <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Ryanbucks, seperti rincian berikut.</translation>
     </message>
     <message>
-        <source>Attempting to spend ryanbuckss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend ryanbucks that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Usaha untuk menggunakan ryanbucks yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>

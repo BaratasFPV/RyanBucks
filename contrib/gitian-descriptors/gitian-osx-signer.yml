@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/ryanbucks-project/ryanbucks-detached-sigs.git"
+- "url": "https://github.com/BaratasFPV/RyanBucks-detached-sigs.git"
   "dir": "signature"
 files:
 - "ryanbucks-osx-unsigned.tar.gz"

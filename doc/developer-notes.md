@@ -220,7 +220,7 @@ to see it.
 
 ### Testnet and Regtest modes
 
-Run with the `-testnet` option to run with "play ryanbuckss" on the test network, if you
+Run with the `-testnet` option to run with "play ryanbucks" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.
@@ -239,7 +239,7 @@ debug.log file if inconsistencies are detected.
 
 Valgrind is a programming tool for memory debugging, memory leak detection, and
 profiling. The repo contains a Valgrind suppressions file
-([`valgrind.supp`](https://github.com/ryanbucks-project/ryanbucks/blob/master/contrib/valgrind.supp))
+([`valgrind.supp`](https://github.com/BaratasFPV/RyanBucks/blob/master/contrib/valgrind.supp))
 which includes known Valgrind warnings in our dependencies that cannot be fixed
 in-tree. Example use:
 
