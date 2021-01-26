@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "NY Times 23/Jan/2021 Biden Seeks to Define His Presidency by an Early Emphasis on Equity";
+    const char* pszTimestamp = "NY Times 26/Jan/2021 McConnell Drops Filibuster Demand, Letting Democrats Assume Full Power";
     const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -110,10 +110,10 @@ public:
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1611440705, 89735, 0x1e0ffff0, 1, 1000 * COIN);
+        genesis = CreateGenesisBlock(1611638673, 599137, 0x1e0ffff0, 1, 1000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xdb6c482d350261d517940ed0fddecff7c27272bb13ac622192e98a03efa0c5e7"));
-        assert(genesis.hashMerkleRoot == uint256S("0xef3588e01e268e45bd75f5a00eac27129905b6e55e59dfc9155e010d5f67d2ac"));
+        assert(consensus.hashGenesisBlock == uint256S("0x03bfb7542cd4e6fdcf1c985bbfc728bd4249ed36201b4c80b4d4cb3b238edfd7"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7ba3a1e8c4a8fd448756e71d730705906e30755d6ca7c4ed429658238e1edf1d"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -142,7 +142,7 @@ public:
 
         checkpointData = {
             {
-                {  0, uint256S("0xdb6c482d350261d517940ed0fddecff7c27272bb13ac622192e98a03efa0c5e7")},
+                {  0, uint256S("0x03bfb7542cd4e6fdcf1c985bbfc728bd4249ed36201b4c80b4d4cb3b238edfd7")},
           /*    {  4032, uint256S("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846")},
                 {  8064, uint256S("0xeb984353fc5190f210651f150c40b8a4bab9eeeff0b729fcb3987da694430d70")},
                 { 16128, uint256S("0x602edf1859b7f9a6af809f1d9b0e6cb66fdc1d4d9dcd7a4bec03e12a1ccd153d")},
@@ -163,7 +163,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 2cdba8c47858d34cf0e02dfb8733263a3ed8705b1663ec7c158783d77b93e7ee
-            /* nTime    */ 1611440705,
+            /* nTime    */ 1611638673,
             /* nTxCount */ 0,
             /* dTxRate  */ 0.0
         };
